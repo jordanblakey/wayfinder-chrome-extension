@@ -1,0 +1,23 @@
+{
+  // Required
+  "name": "Wayfndr",
+  "version": "1.0",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "Create a sharable guided tour of any webpage.",
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+
+  // Type of action: Browser, Page, or none
+  "browser_action": {
+    "default_title": "Create a sharable guided tour of any webpage.",
+    "default_popup": "popup.html"
+  },
+
+  // intent of the app. What you will access from the user.
+  "permissions": [
+    "http://*/*", "https://*/*"
+  ]
+}
